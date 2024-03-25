@@ -8,6 +8,12 @@
   body {
     background-color: #c9a98d;
   }
+
+  .heading {
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+  }
   .wrapper {
     box-sizing: content-box;
     width: 26.87em;
