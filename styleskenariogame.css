@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: poppins, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#fff;
+    padding-bottom: 60px; 
+    padding-top: 140px;
+}
+
+header {
+    background-color: #C9A98D;
+    background-position: center;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: #E5DACA;
+    border-radius: 10px;
+    text-align: justify;
+    img{ 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+nav {
+    background-color:#E5DACA;
+    color: #8E715B;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 100;
+    left: 0;
+    width: 100%; 
+}
+nav a {
+    color: #8E715B;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: small;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-position: center;
+    background-color: #C9A98D;
+    color:#fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+}
